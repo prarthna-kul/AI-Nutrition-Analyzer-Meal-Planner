@@ -23,7 +23,7 @@ AI-powered web application that provides real-time nutrition analysis and person
 ---
 
 ## 🌐 Live Demo
-👉 (Add your deployed link here after deployment)
+👉 https://ai-nutrition-analyzer-meal-planner.streamlit.app/
 
 ---
 
