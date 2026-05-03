@@ -1,6 +1,6 @@
 streamlit
 requests
-plotly
 pandas
-python-dotenv
 numpy
+plotly
+python-dotenv
