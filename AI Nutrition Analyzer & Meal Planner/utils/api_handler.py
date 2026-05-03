@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("CALORIE_NINJAS_API_KEY")
+API_KEY = os.getenv("CALORIE_NINJA_API_KEY") or st.secrets["CALORIE_NINJA_API_KEY"]
 BASE_URL = "https://api.calorieninjas.com/v1/nutrition"
 
 def get_nutrition(query: str) -> dict:
