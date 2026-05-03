@@ -3,6 +3,8 @@ import pandas as pd
 from utils.api_handler import get_nutrition, aggregate_nutrition
 from utils.charts import macro_donut
 
+if "nutrition_log" not in st.session_state:
+    st.session_state.nutrition_log = []
 st.set_page_config(page_title="Nutrition Analyzer", page_icon="🔬", layout="wide")
 
 with open("assets/style.css") as f:
