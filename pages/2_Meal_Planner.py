@@ -1,6 +1,9 @@
 import streamlit as st
 from utils.meal_logic import calculate_tdee, get_calorie_target, get_macro_split, generate_meal_plan
 
+if "meal_plan" not in st.session_state:
+    st.session_state.meal_plan = None
+
 st.set_page_config(page_title="Meal Planner", page_icon="🍽️", layout="wide")
 
 with open("assets/style.css") as f:
